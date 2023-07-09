@@ -35,9 +35,9 @@ public class ShowResult extends Fragment {
 
             StringBuilder stringBuilder = new StringBuilder();
 
-            stringBuilder.append("Correct Answer Given: ").append(gainScore).append("\n");
-            stringBuilder.append("Total Question: ").append(totalScore).append("\n");
-            stringBuilder.append("Wrong Answers: ").append(wrongAnswers).append("\n\n");
+            stringBuilder.append("Correct: ").append(gainScore).append("\n");
+            stringBuilder.append("Total: ").append(totalScore).append("\n");
+            stringBuilder.append("Wrong: ").append(wrongAnswers).append("\n\n");
 
             if (wrongAnswers < 3) {
                 stringBuilder.append("Status: Excellent").append("\n");
